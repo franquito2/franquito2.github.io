@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repartidos</title>
+    <link rel="stylesheet" href="source/Style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Repartidos Programacion Web</h1>
+        <ul>
+            <li><a class="active" href="index.html">Inicio </a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Repartidos
+                    <i class="fa fa-caret-down "></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="Clase1.html">Clase 1</a>
+                    <a href="Clase2.html">Clase 2</a>
+                    <a href="clase3.html">Clase 3</a>
+                </div>
+            </div>
+
+            <li><a href="Coment.html">Comentarios</a></li>
+
+        </ul>
+
+    </header>
+    <br>
+    <div class="text-body">
+        <H2>Clase 2:</H2>
+        
+        <br>
+        <div class="leej">
+            <a href="source/Clase_2_-_Practica_independiente.pdf" download="RepartidoClase2.pdf">RepartidoClase2</a>
+        </div>
+        <b>Calculadora de Propina</b>
+        <hr>
+        <section class="code-block">
+            <div class="code-block-text">
+                <textarea name="code-block" id="" cols="30" rows="13" readonly ="return false";>
+                    
+<?php
+
+$c1=1020;
+$pr=20;
+$r3= $pr*$c1/100;
+echo "la propina es ". $r3 ."<br>"; 
+echo "total a pagar ". $c1 + $r3;
+                                      
+?>
+                </textarea>
+
+            </div>
+  
+        </section>
+        <br>
+    </div>
+    <div class="text-body">
+    <b>Descuento de Tienda</b>
+    <hr>
+    <section class="code-block">
+        <div class="code-block-text">
+            <textarea name="code-block" id="" cols="30" rows="13" readonly ="return false";>
+<?php 
+$pr="1020";
+$ds="20";
+$r3= $pr*$ds/100;
+                
+echo "El descuento es ". $r3 . "<br>";
+echo "total a pagar ". $pr - $r3;
+                
+?>
+            </textarea>
+
+        </div>
+
+    </section>
+    <br>
+</div>
+<div class="text-body">
+    <b>Conversor de Moneda</b>
+    <hr>
+    <section class="code-block">
+        <div class="code-block-text">
+            <textarea name="code-block" id="" cols="30" rows="13" readonly ="return false";>
+<?php
+ $M1="20";
+$M2="38";
+$tr=$M1/$M2;
+echo "Dolar: " . $M1 . "<br>";
+echo "Pesos UY: " . $M2. "<br>";
+                
+echo "total ".  $tr;
+                ?>
+            </textarea>
+
+        </div>
+
+    </section>
+    <br>
+</div>
+<div class="text-body">
+    <b>Adivinar numero</b>
+    <hr>
+    <section class="code-block">
+        <div class="code-block-text">
+            <textarea name="code-block" id="" cols="30" rows="13" readonly ="return false";>
+ <?php
+ $n1=25;
+                
+for ($i= 1; $i<=50; $i++) {
+    if ($i== $n1) {
+        echo "Le has acertado";    
+                
+            }
+        }
+    ?>
+            </textarea>
+
+        </div>
+
+    </section>
+    <br>
+</div>
+<br>
+<button class="Btfuncion"><a href=""><a href="source/Clase 2.rar" download="Clase2.rar">Descargar archivo</a></button>
+<br>
+<br><br>
+</div>
+
+    <footer class="footer">
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2020 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+
+      </footer>
+</body>
+
+</html>

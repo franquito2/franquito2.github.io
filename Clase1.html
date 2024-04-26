@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repartidos</title>
+    <link rel="stylesheet" href="source/Style.css">
+</head>
+
+<body class="text-body">
+
+    <header>
+        <h1>Repartidos Programacion Web</h1>
+        <ul>
+            <li><a class="active" href="index.html">Inicio </a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Repartidos
+                    <i class="fa fa-caret-down "></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="Clase1.html">Clase 1</a>
+                    <a href="Clase2.html">Clase 2</a>
+                    <a href="clase3.html">Clase 3</a>
+                </div>
+            </div>
+
+            <li><a href="Coment.html">Comentarios</a></li>
+
+        </ul>
+
+    </header>
+    <br>
+
+    <div class="text-body">
+        <H2>Clase 1:</H2>
+        
+        <br>
+        <div class="leej">
+            <img src="/source/ejcl1.png" alt="eje1">
+        </div>
+        <b>Ejercicio 1</b>
+        <hr>
+        <section class="code-block">
+            <div class="code-block-text">
+                <textarea name="code-block" id="" cols="30" rows="10" readonly ="return false";>
+<?php
+$numero=4;
+if($numero%2== 0){
+echo"Es par";}
+    else{
+    echo"No es par";
+?>
+                </textarea>
+
+            </div>
+  
+        </section>
+        <br>
+    </div>
+    <b>Ejercicio 2</b>
+    <hr>
+    <section class="code-block">
+        <div class="code-block-text">
+            <textarea name="code-block" id="" cols="30" rows="10" readonly ="return false";>
+ <?php
+
+for ($i=1; $i<=30 ; $i++) { 
+    if (($i%5)==0) {
+        echo $i." Es multiplo de 5 <br>";
+       
+    }
+}
+?>               
+            </textarea>
+
+        </div>
+
+    </section>
+    <br>
+</div>
+<b>Ejercicio 3</b>
+<hr>
+<section class="code-block">
+    <div class="code-block-text">
+        <textarea name="code-block" id="" cols="30" rows="17" readonly ="return false";>
+ <?PHP
+$opc=2;
+switch ($opc) {
+                case 1:
+                    echo "Diseño web <br> Programacion <br> Matematicas"; # code...
+                    break;
+                case 2:
+                    echo "Mecanica <br> Electricidad <br> Lenguaje";
+                    break;
+                default:
+                    # code...
+                    break;
+              } 
+?>               
+        </textarea>
+
+    </div>
+ 
+</section>
+<br>
+<button class="Btfuncion"><a href=""><a href="source/Clase 1.rar" download="Clase1.rar">Descargar archivo</a></button>
+<br>
+<br><br>
+</div>
+
+    <footer class="footer">
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2020 Copyright:
+            <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
